@@ -60,7 +60,7 @@ The application follows a straightforward architecture:
 | Close Application    |
 +---------------------+
 
-
+```plaintext
 
 Components
 Main Class: LinkedInJobScraper:
