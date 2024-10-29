@@ -75,28 +75,51 @@ Here's a snippet of the pom.xml file containing the necessary dependencies:
 xml
 
 <dependencies>
+   
     <dependency>
+    
         <groupId>org.seleniumhq.selenium</groupId>
+        
         <artifactId>selenium-java</artifactId>
+        
         <version>4.25.0</version>
+        
     </dependency>
+    
     <dependency>
+    
         <groupId>io.github.bonigarcia</groupId>
+        
         <artifactId>webdrivermanager</artifactId>
+        
         <version>5.9.2</version>
+        
     </dependency>
+    
     <dependency>
+    
         <groupId>org.apache.poi</groupId>
+        
         <artifactId>poi</artifactId>
+        
         <version>5.2.3</version>
+        
     </dependency>
+    
     <dependency>
+    
         <groupId>org.apache.poi</groupId>
+        
         <artifactId>poi-ooxml</artifactId>
+        
         <version>5.2.3</version>
+        
     </dependency>
+    
 </dependencies>
+
 Important Notes
+
 Ensure compliance with LinkedIn's Terms of Service when using this tool.
 The code may need adjustments if LinkedIn changes its page structure.
 Use at your own risk, as scraping may result in account restrictions.
