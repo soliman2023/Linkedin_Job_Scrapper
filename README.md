@@ -24,7 +24,7 @@ The application follows a straightforward architecture:
 
 ### Flow Diagram
 
-```plaintext
+plaintext
 +---------------------+
 | Start Application   |
 +---------------------+
