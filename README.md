@@ -22,45 +22,6 @@ The application follows a straightforward architecture:
 4. **Logging:**
    - Outputs relevant information and errors to the console.
 
-### Flow Diagram
-
-```plaintext
-+---------------------+
-| Start Application   |
-+---------------------+
-          |
-          v
-+---------------------+
-| Set Up WebDriver    |
-+---------------------+
-          |
-          v
-+---------------------+
-| Log into LinkedIn   |
-+---------------------+
-          |
-          v
-+---------------------+
-| Search for Job      |
-| Titles              |
-+---------------------+
-          |
-          v
-+---------------------+
-| Scrape Job Details  |
-+---------------------+
-          |
-          v
-+---------------------+
-| Write to Excel      |
-+---------------------+
-          |
-          v
-+---------------------+
-| Close Application    |
-+---------------------+
-
-plaintext```
 
 Components
 Main Class: LinkedInJobScraper:
