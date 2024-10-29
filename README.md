@@ -23,6 +23,48 @@ The application follows a straightforward architecture:
    - Outputs relevant information and errors to the console.
 
 
+### Flow Diagram
++---------------------+
+| Start Application   |
++---------------------+
+          |
+          v
++---------------------+
+| Set Up WebDriver    |
++---------------------+
+          |
+          v
++---------------------+
+| Log into LinkedIn   |
++---------------------+
+          |
+          v
++---------------------+
+| Search for Job      |
+| Titles              |
++---------------------+
+          |
+          v
++---------------------+
+| Scrape Job Details  |
++---------------------+
+          |
+          v
++---------------------+
+| Write to Excel      |
++---------------------+
+          |
+          v
++---------------------+
+| Close Application    |
++---------------------+
+
+
+
+
+
+
+
 Components
 Main Class: LinkedInJobScraper:
 
@@ -72,7 +114,7 @@ Apache POI for reading/writing Excel files
 pom.xml
 Here's a snippet of the pom.xml file containing the necessary dependencies:
 
-xml
+### xml
 
 <dependencies>
    
@@ -118,7 +160,7 @@ xml
     
 </dependencies>
 
-Important Notes
+### Important Notes
 
 Ensure compliance with LinkedIn's Terms of Service when using this tool.
 The code may need adjustments if LinkedIn changes its page structure.
@@ -126,7 +168,7 @@ Use at your own risk, as scraping may result in account restrictions.
 License
 This project is open-source and available under the MIT License.
 
-Acknowledgments
+### Acknowledgments
 Selenium
 Apache POI
 WebDriverManager
