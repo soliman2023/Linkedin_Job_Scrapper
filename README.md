@@ -59,6 +59,9 @@ The application follows a straightforward architecture:
 +---------------------+
 | Close Application    |
 +---------------------+
+
+
+
 Components
 Main Class: LinkedInJobScraper:
 
